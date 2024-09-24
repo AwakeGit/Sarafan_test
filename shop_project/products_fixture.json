@@ -1,0 +1,793 @@
+[
+{
+    "model": "products.category",
+    "pk": 46,
+    "fields": {
+        "name": "Фрукты",
+        "slug": "product",
+        "image": "https://picsum.photos/123/932"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 47,
+    "fields": {
+        "name": "Овощи",
+        "slug": "product-1",
+        "image": "https://dummyimage.com/474x635"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 48,
+    "fields": {
+        "name": "Молочные продукты",
+        "slug": "product-2",
+        "image": "https://placekitten.com/155/348"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 49,
+    "fields": {
+        "name": "Хлебобулочные изделия",
+        "slug": "product-3",
+        "image": "https://dummyimage.com/619x525"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 50,
+    "fields": {
+        "name": "Напитки",
+        "slug": "product-4",
+        "image": "https://dummyimage.com/134x981"
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 171,
+    "fields": {
+        "name": "Яблоки",
+        "slug": "product",
+        "image": "https://placekitten.com/373/731",
+        "parent_category": 46
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 172,
+    "fields": {
+        "name": "Бананы",
+        "slug": "product-1",
+        "image": "https://placekitten.com/719/777",
+        "parent_category": 46
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 173,
+    "fields": {
+        "name": "Груши",
+        "slug": "product-2",
+        "image": "https://placekitten.com/469/384",
+        "parent_category": 46
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 174,
+    "fields": {
+        "name": "Апельсины",
+        "slug": "product-3",
+        "image": "https://picsum.photos/402/660",
+        "parent_category": 46
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 175,
+    "fields": {
+        "name": "Картофель",
+        "slug": "product-4",
+        "image": "https://placekitten.com/304/761",
+        "parent_category": 47
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 176,
+    "fields": {
+        "name": "Морковь",
+        "slug": "product-5",
+        "image": "https://placekitten.com/105/7",
+        "parent_category": 47
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 177,
+    "fields": {
+        "name": "Огурцы",
+        "slug": "product-6",
+        "image": "https://placekitten.com/184/93",
+        "parent_category": 47
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 178,
+    "fields": {
+        "name": "Томаты",
+        "slug": "product-7",
+        "image": "https://dummyimage.com/807x264",
+        "parent_category": 47
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 179,
+    "fields": {
+        "name": "Молоко",
+        "slug": "product-8",
+        "image": "https://dummyimage.com/969x378",
+        "parent_category": 48
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 180,
+    "fields": {
+        "name": "Сыр",
+        "slug": "product-9",
+        "image": "https://dummyimage.com/962x666",
+        "parent_category": 48
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 181,
+    "fields": {
+        "name": "Творог",
+        "slug": "product-10",
+        "image": "https://picsum.photos/40/8",
+        "parent_category": 48
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 182,
+    "fields": {
+        "name": "Йогурт",
+        "slug": "product-11",
+        "image": "https://dummyimage.com/388x740",
+        "parent_category": 48
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 183,
+    "fields": {
+        "name": "Хлеб",
+        "slug": "product-12",
+        "image": "https://picsum.photos/852/614",
+        "parent_category": 49
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 184,
+    "fields": {
+        "name": "Батон",
+        "slug": "product-13",
+        "image": "https://picsum.photos/82/829",
+        "parent_category": 49
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 185,
+    "fields": {
+        "name": "Булочки",
+        "slug": "product-14",
+        "image": "https://dummyimage.com/678x505",
+        "parent_category": 49
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 186,
+    "fields": {
+        "name": "Круассаны",
+        "slug": "product-15",
+        "image": "https://dummyimage.com/1009x871",
+        "parent_category": 49
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 187,
+    "fields": {
+        "name": "Вода",
+        "slug": "product-16",
+        "image": "https://picsum.photos/157/485",
+        "parent_category": 50
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 188,
+    "fields": {
+        "name": "Сок",
+        "slug": "product-17",
+        "image": "https://picsum.photos/502/585",
+        "parent_category": 50
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 189,
+    "fields": {
+        "name": "Чай",
+        "slug": "product-18",
+        "image": "https://placekitten.com/441/167",
+        "parent_category": 50
+    }
+},
+{
+    "model": "products.subcategory",
+    "pk": 190,
+    "fields": {
+        "name": "Кофе",
+        "slug": "product-19",
+        "image": "https://dummyimage.com/918x470",
+        "parent_category": 50
+    }
+},
+{
+    "model": "products.product",
+    "pk": 595,
+    "fields": {
+        "name": "Красные яблоки",
+        "slug": "product",
+        "price": "992.58",
+        "image_small": "https://placekitten.com/903/331",
+        "image_medium": "https://picsum.photos/922/51",
+        "image_large": "https://dummyimage.com/382x596",
+        "subcategory": 171
+    }
+},
+{
+    "model": "products.product",
+    "pk": 596,
+    "fields": {
+        "name": "Зеленые яблоки",
+        "slug": "product-1",
+        "price": "724.65",
+        "image_small": "https://picsum.photos/448/732",
+        "image_medium": "https://picsum.photos/632/1014",
+        "image_large": "https://dummyimage.com/101x36",
+        "subcategory": 171
+    }
+},
+{
+    "model": "products.product",
+    "pk": 597,
+    "fields": {
+        "name": "Гала",
+        "slug": "product-2",
+        "price": "974.18",
+        "image_small": "https://picsum.photos/7/629",
+        "image_medium": "https://dummyimage.com/67x576",
+        "image_large": "https://dummyimage.com/564x945",
+        "subcategory": 171
+    }
+},
+{
+    "model": "products.product",
+    "pk": 598,
+    "fields": {
+        "name": "Фуджи",
+        "slug": "product-3",
+        "price": "237.90",
+        "image_small": "https://dummyimage.com/298x505",
+        "image_medium": "https://dummyimage.com/683x810",
+        "image_large": "https://placekitten.com/476/114",
+        "subcategory": 171
+    }
+},
+{
+    "model": "products.product",
+    "pk": 599,
+    "fields": {
+        "name": "Спелые бананы",
+        "slug": "product-4",
+        "price": "694.22",
+        "image_small": "https://dummyimage.com/818x1015",
+        "image_medium": "https://dummyimage.com/124x722",
+        "image_large": "https://placekitten.com/575/407",
+        "subcategory": 172
+    }
+},
+{
+    "model": "products.product",
+    "pk": 600,
+    "fields": {
+        "name": "Зеленые бананы",
+        "slug": "product-5",
+        "price": "663.54",
+        "image_small": "https://picsum.photos/261/598",
+        "image_medium": "https://picsum.photos/454/68",
+        "image_large": "https://picsum.photos/226/900",
+        "subcategory": 172
+    }
+},
+{
+    "model": "products.product",
+    "pk": 601,
+    "fields": {
+        "name": "Конференс",
+        "slug": "product-6",
+        "price": "466.92",
+        "image_small": "https://dummyimage.com/755x849",
+        "image_medium": "https://placekitten.com/428/668",
+        "image_large": "https://placekitten.com/932/236",
+        "subcategory": 173
+    }
+},
+{
+    "model": "products.product",
+    "pk": 602,
+    "fields": {
+        "name": "Комис",
+        "slug": "product-7",
+        "price": "222.37",
+        "image_small": "https://placekitten.com/367/803",
+        "image_medium": "https://dummyimage.com/141x777",
+        "image_large": "https://picsum.photos/353/41",
+        "subcategory": 173
+    }
+},
+{
+    "model": "products.product",
+    "pk": 603,
+    "fields": {
+        "name": "Апельсины без косточек",
+        "slug": "product-8",
+        "price": "292.24",
+        "image_small": "https://dummyimage.com/161x140",
+        "image_medium": "https://picsum.photos/133/206",
+        "image_large": "https://dummyimage.com/802x537",
+        "subcategory": 174
+    }
+},
+{
+    "model": "products.product",
+    "pk": 604,
+    "fields": {
+        "name": "Апельсины с косточками",
+        "slug": "product-9",
+        "price": "718.47",
+        "image_small": "https://placekitten.com/766/748",
+        "image_medium": "https://placekitten.com/681/955",
+        "image_large": "https://dummyimage.com/285x981",
+        "subcategory": 174
+    }
+},
+{
+    "model": "products.product",
+    "pk": 605,
+    "fields": {
+        "name": "Красный картофель",
+        "slug": "product-10",
+        "price": "789.88",
+        "image_small": "https://dummyimage.com/908x442",
+        "image_medium": "https://dummyimage.com/937x5",
+        "image_large": "https://dummyimage.com/594x399",
+        "subcategory": 175
+    }
+},
+{
+    "model": "products.product",
+    "pk": 606,
+    "fields": {
+        "name": "Белый картофель",
+        "slug": "product-11",
+        "price": "560.47",
+        "image_small": "https://dummyimage.com/818x589",
+        "image_medium": "https://dummyimage.com/917x37",
+        "image_large": "https://placekitten.com/243/663",
+        "subcategory": 175
+    }
+},
+{
+    "model": "products.product",
+    "pk": 607,
+    "fields": {
+        "name": "Морковь свежая",
+        "slug": "product-12",
+        "price": "684.73",
+        "image_small": "https://picsum.photos/102/317",
+        "image_medium": "https://placekitten.com/135/692",
+        "image_large": "https://picsum.photos/150/671",
+        "subcategory": 176
+    }
+},
+{
+    "model": "products.product",
+    "pk": 608,
+    "fields": {
+        "name": "Морковь в сетке",
+        "slug": "product-13",
+        "price": "524.18",
+        "image_small": "https://picsum.photos/795/814",
+        "image_medium": "https://dummyimage.com/785x351",
+        "image_large": "https://dummyimage.com/363x749",
+        "subcategory": 176
+    }
+},
+{
+    "model": "products.product",
+    "pk": 609,
+    "fields": {
+        "name": "Огурцы свежие",
+        "slug": "product-14",
+        "price": "161.74",
+        "image_small": "https://placekitten.com/457/86",
+        "image_medium": "https://picsum.photos/264/313",
+        "image_large": "https://dummyimage.com/229x699",
+        "subcategory": 177
+    }
+},
+{
+    "model": "products.product",
+    "pk": 610,
+    "fields": {
+        "name": "Огурцы маринованные",
+        "slug": "product-15",
+        "price": "853.94",
+        "image_small": "https://dummyimage.com/389x291",
+        "image_medium": "https://placekitten.com/249/285",
+        "image_large": "https://picsum.photos/584/507",
+        "subcategory": 177
+    }
+},
+{
+    "model": "products.product",
+    "pk": 611,
+    "fields": {
+        "name": "Томаты черри",
+        "slug": "product-16",
+        "price": "782.04",
+        "image_small": "https://dummyimage.com/909x529",
+        "image_medium": "https://picsum.photos/45/797",
+        "image_large": "https://dummyimage.com/578x862",
+        "subcategory": 178
+    }
+},
+{
+    "model": "products.product",
+    "pk": 612,
+    "fields": {
+        "name": "Томаты крупные",
+        "slug": "product-17",
+        "price": "565.91",
+        "image_small": "https://dummyimage.com/710x34",
+        "image_medium": "https://placekitten.com/929/422",
+        "image_large": "https://picsum.photos/274/944",
+        "subcategory": 178
+    }
+},
+{
+    "model": "products.product",
+    "pk": 613,
+    "fields": {
+        "name": "Молоко 2.5%",
+        "slug": "25",
+        "price": "228.92",
+        "image_small": "https://dummyimage.com/766x168",
+        "image_medium": "https://placekitten.com/595/460",
+        "image_large": "https://dummyimage.com/970x180",
+        "subcategory": 179
+    }
+},
+{
+    "model": "products.product",
+    "pk": 614,
+    "fields": {
+        "name": "Молоко 3.2%",
+        "slug": "32",
+        "price": "389.91",
+        "image_small": "https://picsum.photos/885/971",
+        "image_medium": "https://placekitten.com/758/518",
+        "image_large": "https://picsum.photos/64/646",
+        "subcategory": 179
+    }
+},
+{
+    "model": "products.product",
+    "pk": 615,
+    "fields": {
+        "name": "Сыр твердый",
+        "slug": "product-18",
+        "price": "389.11",
+        "image_small": "https://placekitten.com/634/931",
+        "image_medium": "https://picsum.photos/51/279",
+        "image_large": "https://dummyimage.com/317x937",
+        "subcategory": 180
+    }
+},
+{
+    "model": "products.product",
+    "pk": 616,
+    "fields": {
+        "name": "Сыр плавленый",
+        "slug": "product-19",
+        "price": "443.37",
+        "image_small": "https://placekitten.com/995/600",
+        "image_medium": "https://picsum.photos/977/853",
+        "image_large": "https://dummyimage.com/359x43",
+        "subcategory": 180
+    }
+},
+{
+    "model": "products.product",
+    "pk": 617,
+    "fields": {
+        "name": "Творог 5%",
+        "slug": "5",
+        "price": "824.25",
+        "image_small": "https://picsum.photos/895/22",
+        "image_medium": "https://dummyimage.com/852x246",
+        "image_large": "https://placekitten.com/1016/277",
+        "subcategory": 181
+    }
+},
+{
+    "model": "products.product",
+    "pk": 618,
+    "fields": {
+        "name": "Творог обезжиренный",
+        "slug": "product-20",
+        "price": "76.72",
+        "image_small": "https://placekitten.com/377/322",
+        "image_medium": "https://placekitten.com/414/756",
+        "image_large": "https://placekitten.com/257/523",
+        "subcategory": 181
+    }
+},
+{
+    "model": "products.product",
+    "pk": 619,
+    "fields": {
+        "name": "Йогурт с фруктами",
+        "slug": "product-21",
+        "price": "226.88",
+        "image_small": "https://placekitten.com/131/679",
+        "image_medium": "https://picsum.photos/849/768",
+        "image_large": "https://dummyimage.com/102x488",
+        "subcategory": 182
+    }
+},
+{
+    "model": "products.product",
+    "pk": 620,
+    "fields": {
+        "name": "Натуральный йогурт",
+        "slug": "product-22",
+        "price": "91.72",
+        "image_small": "https://placekitten.com/270/980",
+        "image_medium": "https://dummyimage.com/625x276",
+        "image_large": "https://picsum.photos/912/574",
+        "subcategory": 182
+    }
+},
+{
+    "model": "products.product",
+    "pk": 621,
+    "fields": {
+        "name": "Ржаной хлеб",
+        "slug": "product-23",
+        "price": "469.66",
+        "image_small": "https://picsum.photos/213/689",
+        "image_medium": "https://placekitten.com/754/499",
+        "image_large": "https://picsum.photos/565/527",
+        "subcategory": 183
+    }
+},
+{
+    "model": "products.product",
+    "pk": 622,
+    "fields": {
+        "name": "Пшеничный хлеб",
+        "slug": "product-24",
+        "price": "972.18",
+        "image_small": "https://dummyimage.com/270x421",
+        "image_medium": "https://dummyimage.com/193x997",
+        "image_large": "https://picsum.photos/580/962",
+        "subcategory": 183
+    }
+},
+{
+    "model": "products.product",
+    "pk": 623,
+    "fields": {
+        "name": "Батон нарезной",
+        "slug": "product-25",
+        "price": "693.74",
+        "image_small": "https://picsum.photos/908/534",
+        "image_medium": "https://dummyimage.com/458x727",
+        "image_large": "https://placekitten.com/406/265",
+        "subcategory": 184
+    }
+},
+{
+    "model": "products.product",
+    "pk": 624,
+    "fields": {
+        "name": "Батон классический",
+        "slug": "product-26",
+        "price": "51.66",
+        "image_small": "https://picsum.photos/477/271",
+        "image_medium": "https://placekitten.com/421/873",
+        "image_large": "https://picsum.photos/829/296",
+        "subcategory": 184
+    }
+},
+{
+    "model": "products.product",
+    "pk": 625,
+    "fields": {
+        "name": "Булочки с маком",
+        "slug": "product-27",
+        "price": "563.91",
+        "image_small": "https://picsum.photos/331/740",
+        "image_medium": "https://picsum.photos/120/187",
+        "image_large": "https://dummyimage.com/893x777",
+        "subcategory": 185
+    }
+},
+{
+    "model": "products.product",
+    "pk": 626,
+    "fields": {
+        "name": "Булочки с сахаром",
+        "slug": "product-28",
+        "price": "814.97",
+        "image_small": "https://picsum.photos/976/784",
+        "image_medium": "https://dummyimage.com/120x496",
+        "image_large": "https://placekitten.com/487/75",
+        "subcategory": 185
+    }
+},
+{
+    "model": "products.product",
+    "pk": 627,
+    "fields": {
+        "name": "Круассаны с шоколадом",
+        "slug": "product-29",
+        "price": "110.81",
+        "image_small": "https://dummyimage.com/508x740",
+        "image_medium": "https://dummyimage.com/824x34",
+        "image_large": "https://dummyimage.com/363x185",
+        "subcategory": 186
+    }
+},
+{
+    "model": "products.product",
+    "pk": 628,
+    "fields": {
+        "name": "Круассаны с маслом",
+        "slug": "product-30",
+        "price": "341.34",
+        "image_small": "https://picsum.photos/853/516",
+        "image_medium": "https://picsum.photos/431/241",
+        "image_large": "https://picsum.photos/439/6",
+        "subcategory": 186
+    }
+},
+{
+    "model": "products.product",
+    "pk": 629,
+    "fields": {
+        "name": "Минеральная вода",
+        "slug": "product-31",
+        "price": "985.20",
+        "image_small": "https://dummyimage.com/973x84",
+        "image_medium": "https://dummyimage.com/934x762",
+        "image_large": "https://picsum.photos/79/624",
+        "subcategory": 187
+    }
+},
+{
+    "model": "products.product",
+    "pk": 630,
+    "fields": {
+        "name": "Газированная вода",
+        "slug": "product-32",
+        "price": "549.93",
+        "image_small": "https://placekitten.com/458/229",
+        "image_medium": "https://dummyimage.com/530x521",
+        "image_large": "https://dummyimage.com/489x787",
+        "subcategory": 187
+    }
+},
+{
+    "model": "products.product",
+    "pk": 631,
+    "fields": {
+        "name": "Апельсиновый сок",
+        "slug": "product-33",
+        "price": "319.71",
+        "image_small": "https://dummyimage.com/924x61",
+        "image_medium": "https://placekitten.com/297/735",
+        "image_large": "https://dummyimage.com/555x938",
+        "subcategory": 188
+    }
+},
+{
+    "model": "products.product",
+    "pk": 632,
+    "fields": {
+        "name": "Яблочный сок",
+        "slug": "product-34",
+        "price": "204.31",
+        "image_small": "https://dummyimage.com/271x895",
+        "image_medium": "https://picsum.photos/653/827",
+        "image_large": "https://placekitten.com/546/628",
+        "subcategory": 188
+    }
+},
+{
+    "model": "products.product",
+    "pk": 633,
+    "fields": {
+        "name": "Черный чай",
+        "slug": "product-35",
+        "price": "334.96",
+        "image_small": "https://picsum.photos/965/191",
+        "image_medium": "https://picsum.photos/844/909",
+        "image_large": "https://placekitten.com/823/675",
+        "subcategory": 189
+    }
+},
+{
+    "model": "products.product",
+    "pk": 634,
+    "fields": {
+        "name": "Зеленый чай",
+        "slug": "product-36",
+        "price": "328.44",
+        "image_small": "https://dummyimage.com/239x96",
+        "image_medium": "https://placekitten.com/525/874",
+        "image_large": "https://picsum.photos/726/296",
+        "subcategory": 189
+    }
+},
+{
+    "model": "products.product",
+    "pk": 635,
+    "fields": {
+        "name": "Растворимый кофе",
+        "slug": "product-37",
+        "price": "863.75",
+        "image_small": "https://placekitten.com/633/241",
+        "image_medium": "https://placekitten.com/2/804",
+        "image_large": "https://picsum.photos/53/422",
+        "subcategory": 190
+    }
+},
+{
+    "model": "products.product",
+    "pk": 636,
+    "fields": {
+        "name": "Молотый кофе",
+        "slug": "product-38",
+        "price": "486.95",
+        "image_small": "https://dummyimage.com/272x40",
+        "image_medium": "https://picsum.photos/549/809",
+        "image_large": "https://dummyimage.com/782x522",
+        "subcategory": 190
+    }
+}
+]
